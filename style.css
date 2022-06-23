@@ -1,0 +1,554 @@
+/* Página index */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #ffffff;
+color: black;
+margin: 20px 20px 20px 20px;
+}
+
+.logo{
+display:flex;
+justify-content: center;
+margin: 20px;
+}
+.carrusel-padre{
+    display: flex;
+    justify-content: center;
+}
+.carrusel{
+    width: 80%;
+}
+
+
+.lista{ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+list-style: none;
+margin: 20px;
+height: 30px;
+letter-spacing: 3px;
+font-size: 20px;
+background-color:red;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly; 
+align-items: center;
+flex-wrap: wrap;
+align-content: space-around;
+
+} 
+.lista li a {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+text-decoration: none;
+
+
+}
+.lista li:hover{
+text-decoration: underline;
+transition: 500ms;
+}
+
+.galeria-img img{
+margin: 50px 20px 50px 20px;
+}
+
+.galeria{
+    margin-top: 20px;
+    background-image: url(./Images/Campeon\ libertadores\ 2018.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    grid-area: h1;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: black;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tienda{
+    background-color: rgba(253, 246, 250, 0.75);
+    padding: 1rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: x-large;
+    color: red;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carrusel {
+    margin: 20px auto 20px auto;
+    color: white;
+}
+
+/* Esto está hecho en todos mis footer */
+.email{
+    letter-spacing: 0,5px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: red;
+}
+.volver{
+    letter-spacing: 0,5px;
+    margin: 10px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    color: red;
+}
+.Telegram{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+.Telegram:hover{
+    box-shadow: 0px 0px 30px #0080ff;
+    transition: 500ms;
+    right: 20px;
+}
+
+.whatsapp{
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+.whatsapp:hover{
+    box-shadow: 0px 0px 30px green; 
+    transition: 500ms;
+    right: 20px;
+}
+
+.descuento{
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(252, 63, 63, 0.966);
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    grid-area: footer;
+    margin-top: 20px;
+    letter-spacing: 0,5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: red;
+    
+}
+
+.imgriver{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tarjeta__bbvaconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta__bbva{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tienda */
+
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto); gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+
+}
+
+    .envio-gratis-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.envio-gratis{
+    text-align: center;
+    width: 80vw;
+} 
+
+.productostienda{
+    border: solid 5px black;
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: ease-in-out;
+
+}
+
+.venta{
+    text-align: start;
+    border: double red 5px;
+    border-top:solid 5px red;
+    border-bottom:solid 5px red;
+}
+
+.imagen{
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    letter-spacing: 1px;
+    background: white;    
+    margin: 20px 50px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.mediosdepago{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.texto{
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(252, 63, 63, 0.966);
+    text-align: center;
+}
+
+.tarjetas{
+    text-align: center;
+}
+
+
+.productostienda img{
+    height: 225px;
+    text-align: center;
+}
+
+.comprar{
+    color: red;
+    display: inline-block;
+    text-align: center;
+    
+}
+.comprar:hover{
+
+    box-shadow: 0px 0px 30px red; 
+    transition: 500ms;
+    right: 20px;
+    width: 100px;
+    height: 20px;
+}
+
+.presentacioncamiseta{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.productostienda h4{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    letter-spacing: 1px;
+    
+}
+
+/* Página redes */
+.imagenredsocial{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Página login */
+.login{
+    grid-area: login;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.botoningresar{
+    right: 20px;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.botoningresar:hover{
+    background-color: red;
+    color: white;
+    box-shadow:red; 
+    transition: 500ms;
+    border-radius: 50px;
+}
+
+.btn-entrar{ 
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+.btn-entrar a{
+    text-decoration: none;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+} 
+
+.btn-entrar a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    box-shadow: red ;
+    transition: 500ms;
+}
+
+
+.imagentamañoconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.imagentamaño{
+    width: 1000px;
+    height: 500px;
+}
+ /* Página contactanos */
+
+.contacto{
+display: flex;
+justify-content: center;
+border: solid 5px;
+color: red;
+}
+
+.formulariocontacto input{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+.formulariocontacto input:hover{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    box-shadow: red ;
+    transition: 500ms;
+}
+
+.textarea{
+    margin-top: 20px;
+    }
+
+.imagencontactoconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.imagencontacto{
+    margin: 10px;
+}
+
+/* GRIDS */
+
+/* Grid redes */
+.container-redes{
+    display: grid;
+    grid-template-rows: 1fr 160px 150px 1fr 200px;
+
+    grid-template-areas: 
+    "header"
+    "texto1"
+    "redes"
+    "video"
+    "footer";
+}
+.cabecera{
+    grid-area: header;
+
+
+}
+.texto1redes{
+    margin-top: 50px;
+    grid-area: texto1;
+
+}
+
+.redsocialcontainer{
+    grid-area: redes;
+}
+.redsocial{
+    display: flex;
+    justify-content: space-around;
+    grid-area: video;
+}
+.footer{
+    grid-area: footer;
+}
+
+/* Grid Login */
+.grid-container-login{
+    display: grid;
+    grid-template-rows: 1fr 70px 150px 100px 100px;
+    grid-template-areas: 
+    "header"
+    "h1"
+    "login"
+    "parráfo"
+    "footer";
+}
+.cabecera{
+    grid-area: header;
+}
+.h1{
+    grid-area: h1;
+}
+
+.login{
+    grid-area: login;
+}
+
+.parráfo{
+    grid-area: parráfo;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+/* Grid Tienda */
+
+
+.grid-container-camisetas{
+    
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-template-areas: "imagen_1 imagen_2 imagen_3"
+    "imagen_4 imagen_5 imagen_6" ;
+}
+#Imagen_1{
+    grid-area: imagen_1;
+}
+#Imagen_2{
+    grid-area: imagen_2;
+}
+#Imagen_3{
+    grid-area: imagen_3;
+}
+#Imagen_4{
+    grid-area: imagen_4;
+}
+#Imagen_5{
+    grid-area: imagen_5;
+}
+#Imagen_6{
+    grid-area: imagen_6;
+}
+
+.cabecera{
+    grid-area: header;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .grid-container-camisetas {
+        padding: 20px;
+        gap: 1rem;
+        justify-items: center;
+        display: grid;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas: "imagen_1" "imagen_2" "imagen_3"
+        "imagen_4" "imagen_5" "imagen_6" ;
+    }
+    #Imagen_1{
+        grid-area: imagen_1;
+    }
+    #Imagen_2{
+        grid-area: imagen_2;
+    }
+    #Imagen_3{
+        grid-area: imagen_3;
+    }
+    #Imagen_4{
+        grid-area: imagen_4;
+    }
+    #Imagen_5{
+        grid-area: imagen_5;
+    }
+    #Imagen_6{
+        grid-area: imagen_6;
+    }
+    
+    .cabecera{
+        grid-area: header;
+    } 
+}
+
