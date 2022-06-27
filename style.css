@@ -50,6 +50,7 @@ text-decoration: none;
 
 
 
+
 .galeria-img img{
 margin: 50px 20px 50px 20px;
 }
@@ -143,6 +144,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 50%;
 }
 
+.Telegram:hover{
+    box-shadow: 0px 0px 30px #0080ff;
+    transition: 500ms;
+    right: 20px;
+}
+
+
 .whatsapp{
     border-radius: 50%;
     display: flex;
@@ -150,6 +158,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
     bottom: 100px;
     right: 10px;
+}
+
+.whatsapp:hover{
+    box-shadow: 0px 0px 30px green; 
+    transition: 500ms;
+    right: 20px;
 }
 
 
