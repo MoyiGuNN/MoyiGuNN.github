@@ -6,42 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <title>Redes</title>
 </head>
 <body>
-    <div class="container-redes">
-        <header class="cabecera">
-            <img class="logo animate__animated animate__backInDown" src="../Images/River.png" alt="Logo River" id="Inicio">
-            <h1>SOMOS RIVER</h1>
-        
-            <nav>
-                <ul class="lista animate__animated animate__backInDown"> 
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="tienda.html">Tienda</a></li>
-                    <li><a href="redes.html">Redes</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contactanos.html">Contactanos</a></li>
-                    
+    <div>
+    <header class="cabecera">
+        <img class="logo animate__animated animate__backInDown" src="../Images/River.png" alt="Logo River"
+        id="Inicio">
+        <h1>SOMOS RIVER</h1>
+        <nav class="navbar navbar-expand-lg navbar-black bg-light sticky-top shadow mb-3">
+            <div class="container bg-renzo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse justify-content-evenly navbar-nav" id="navbarNav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../Pages/redes.html">Redes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/contactanos.html">Contactanos</a>
+                    </li>
                 </ul>
+            </div>
+        </nav>
+    </header>
+</div>
 
 
-                <div class="imagenredsocial">
-                    <img src="../Images/20804-620x400-21.jpg" alt="Redes sociales">
+        <div class="imagenredsocial">
+            <img src="../Images/20804-620x400-21.jpg" alt="redsocial">
+        </div>
 
-                </div>
-                
-            </nav>
-
-            
-        </header>
         
         <div class="texto1redes">
-            <h1>Seguinos en nuestra redes sociales</h1>
+            <h1 class="h1color">Seguinos en nuestra redes sociales</h1>
             <h2 class="h2">Conócenos</h2>
         </div>
 
-        <div class="redsocialcontainer">
-                
+        <div>
+            
             <div class="redsocial">
 
                 <a href="https://www.facebook.com/renzo.cassella/"
@@ -68,12 +83,9 @@
             </div>
 
 
-            
         <div class="redsocial">
             <iframe width="1060" height="600" src="https://www.youtube.com/embed/14cz3Byf-Tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    
-        
 
         <footer>
         
@@ -117,7 +129,10 @@
         </footer>
     
     </div>
+
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 
