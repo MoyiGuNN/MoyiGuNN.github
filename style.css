@@ -6,7 +6,6 @@
 
 .cabecera{ 
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #ffffff;
 color: black;
 margin: 20px 20px 20px 20px;
 }
@@ -25,21 +24,13 @@ margin: 20px;
     width: 80%;
 }
 
-.bg-renzo{ 
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-list-style: none;
-margin: 20px;
-height: 30px;
-letter-spacing: 3px;
-font-size: 20px;
-background-color:red;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly; 
-align-items: center;
-flex-wrap: wrap;
-align-content: space-around;
+.bg-renzo {
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    background-color:red;
 } 
+
 .nav-item{
     text-decoration: underline;
     color: black;
@@ -48,10 +39,6 @@ align-content: space-around;
 .nav-item:hover{
     transition: 500ms;
     color: black;
-}
-.nav-link{
-    color: black;
-    
 }
 
 .container-cards{
@@ -106,7 +93,7 @@ h1{
 }
 
 .h2{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: red;
     display: flex;
     align-items: center;
@@ -129,6 +116,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+}
+.tienda:hover{
+    box-shadow: 0px 0px 10px red;
+    transition: 500ms;
+    color: red;
 }
 
 .carrusel {
@@ -157,6 +149,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white;
     color: red;
 }
+.volver:hover{
+    box-shadow: 0px 0px 50px red;
+    transition: 500ms;
+    color: red;
+}
+
 .Telegram{
     display: flex;
     justify-content: flex-end;
@@ -308,6 +306,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     display: inline-block;
     text-align: center;
+    border: solid black 2px;
     
 }
 
@@ -395,9 +394,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .imagentamaño{
-    width: 1000px;
-    height: 500px;
-} 
+    width: 70vw;
+    height: 50vh;
+
+}  
 
  /* Página contactanos */
 
@@ -498,21 +498,27 @@ color: red;
     "imagen_4 imagen_5 imagen_6" ;
 }
 #Imagen_1{
+    border: solid black 2px;
     grid-area: imagen_1;
 }
 #Imagen_2{
+    border: solid black 2px;
     grid-area: imagen_2;
 }
 #Imagen_3{
+    border: solid black 2px;
     grid-area: imagen_3;
 }
 #Imagen_4{
+    border: solid black 2px;
     grid-area: imagen_4;
 }
 #Imagen_5{
+    border:solid black 2px;
     grid-area: imagen_5;
 }
 #Imagen_6{
+    border: solid black 2px;
     grid-area: imagen_6;
 }
 
@@ -555,7 +561,7 @@ color: red;
 }
 /* Media Query´s para login */
 
-    @media screen and (min-width: 348px) and (max-width: 576px){
+    @media screen and (max-width: 576px){
     
 .cabecera nav ul{
     display: flex;
@@ -585,5 +591,3 @@ color: red;
     
 }
 }
-
-
