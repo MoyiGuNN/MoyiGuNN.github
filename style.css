@@ -334,6 +334,7 @@ h1{
 
 .redsocial{
     margin: 50px;
+    text-align: center;
     
 }
 
@@ -342,6 +343,19 @@ h1{
     justify-content: center;
     margin-bottom: 1rem;
 }
+
+.botonredsocial{
+    color: red;
+    border: solid black 1px;
+    text-decoration: none;
+}
+
+.botonredsocial:hover{
+    box-shadow: 5px 5px 10px red;
+    color: red;
+    transition: 500ms;
+}
+
 
 /* Página login */
 .login{
@@ -559,7 +573,7 @@ color: red;
     }
     
 }
-/* Media Query´s para login */
+/* Media Query´s para Login */
 
     @media screen and (max-width: 576px){
     
@@ -591,3 +605,29 @@ color: red;
     
 }
 }
+
+
+/* Media Query´s para Redes */
+@media screen and (max-width: 576px) {
+    .imagenredsocial{
+        display: none;
+    }
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    
+    .card-body{
+        padding: 0 !important;
+    }
+
+    .redsocial{
+        width:auto;
+        height: auto;
+    }
+}
+
+        
+
