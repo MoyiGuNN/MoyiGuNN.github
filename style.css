@@ -332,11 +332,18 @@ h1{
 
 /* Página redes */
 
-.redsocial{
+.redsociallogos{
     margin: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
+.redsocialvideo{
+    display: flex;
+    justify-content: center;
+    }
+
+
 
 .imagenredsocial{
     display: flex;
