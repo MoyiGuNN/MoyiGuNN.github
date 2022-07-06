@@ -1,0 +1,146 @@
+/* Variables */
+$border: solid 2px black; 
+$font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+/* Tienda */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto); gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+
+}
+
+.envio-gratis-padre{
+    display: flex;
+    justify-content: center;
+}
+
+.envio-gratis{
+    text-align: center;
+    width: 80vw;
+}
+
+.productostienda{
+    border: solid 5px black;
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: ease-in-out;
+
+}
+
+.venta{
+    text-align: start;
+    border: double red 5px;
+    border-top:solid 5px red;
+    border-bottom:solid 5px red;
+}
+
+.imagen{
+    font-size: smaller;
+    font-family: $font-family;
+    color: red;
+    letter-spacing: 1px;
+    background: white;    
+    margin: 20px 50px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.mediosdepago{
+    font-size: large;
+    font-family: $font-family;
+    color: red;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.texto{
+    font-size: smaller;
+    font-family: $font-family;
+    color: rgba(252, 63, 63, 0.966);
+    text-align: center;
+}
+
+.tarjetas{
+    text-align: center;
+}
+
+
+.productostienda img{
+    height: 225px;
+    text-align: center;
+}
+
+.comprar{
+    color: red;
+    display: inline-block;
+    text-align: center;
+    border: $border;
+    
+}
+
+.comprar:hover{
+    box-shadow: 0px 0px 30px red; 
+    transition: 500ms;
+    }
+
+
+.presentacioncamiseta{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.productostienda h4{
+    font-size: large;
+    font-family: $font-family;
+    color: red;
+    letter-spacing: 1px;
+    
+}
+
+/* Grid Tienda */
+
+.grid-container-camisetas{
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-template-areas: "imagen_1 imagen_2 imagen_3"
+    "imagen_4 imagen_5 imagen_6" ;
+}
+#Imagen_1{
+    border: $border;
+    grid-area: imagen_1;
+}
+#Imagen_2{
+    border: $border;
+    grid-area: imagen_2;
+}
+#Imagen_3{
+    border: $border;
+    grid-area: imagen_3;
+}
+#Imagen_4{
+    border: $border;
+    grid-area: imagen_4;
+}
+#Imagen_5{
+    border: $border;
+    grid-area: imagen_5;
+}
+#Imagen_6{
+    border: $border;
+    grid-area: imagen_6;
+}
+
+.cabecera{
+    grid-area: header;
+}

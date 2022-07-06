@@ -1,0 +1,322 @@
+@charset "UTF-8";
+/* Página index */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Index */
+/* Cabecera anidación */
+.cabecera {
+  background-color: white; }
+  .cabecera h1 {
+    text-decoration: underline; }
+    .cabecera h1 nav {
+      margin: 20px; }
+      .cabecera h1 nav ul {
+        padding: 20px; }
+        .cabecera h1 nav ul li {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+/* VARIABLES */
+.cabecera {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  margin: 20px 20px 20px 20px; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+
+.bg-renzo {
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+  background-color: red; }
+
+.nav-item {
+  transition: 500ms;
+  color: black;
+  text-decoration: underline;
+  letter-spacing: 1px; }
+
+.nav-item:hover {
+  transition: 500ms;
+  color: black; }
+
+.listali:hover {
+  text-decoration: underline;
+  transition: 500ms; }
+
+/* VARIABLES */
+.carrusel-padre {
+  display: flex;
+  justify-content: center; }
+
+.carrusel {
+  width: 80%; }
+
+.galeria-img img {
+  margin: 50px 20px 50px 20px; }
+
+.galeria {
+  margin-top: 20px;
+  background-image: url(https://images.beinsports.com/FZkW1iSCtDYLDXqEXe-EoBsNLac=/full-fit-in/1000x0/3132330-river-reuters.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: red; }
+
+h1 {
+  grid-area: h1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.h1color {
+  margin-top: 20px;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black; }
+
+.tienda {
+  background-color: rgba(253, 246, 250, 0.75);
+  padding: 1rem;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: red;
+  height: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.tienda:hover {
+  box-shadow: 0px 0px 10px red;
+  transition: 500ms;
+  color: red; }
+
+.descuento {
+  margin-top: 10px;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(252, 63, 63, 0.966);
+  display: flex;
+  justify-content: center; }
+
+.imgriver {
+  height: 50px;
+  display: flex;
+  justify-content: center; }
+
+.tarjeta__bbvaconteiner {
+  display: flex;
+  justify-content: center; }
+
+.tarjeta__bbva {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; }
+
+/* VARIABLES */
+.email {
+  letter-spacing: 0, 5px;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: white;
+  background-color: red; }
+
+.volver {
+  letter-spacing: 0, 5px;
+  margin: 10px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  color: red; }
+
+.volver:hover {
+  box-shadow: 0px 0px 50px red;
+  transition: 500ms;
+  color: red; }
+
+.Telegram {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%; }
+
+.Telegram:hover {
+  box-shadow: 0px 0px 30px #0080ff;
+  transition: 500ms;
+  right: 20px; }
+
+.whatsapp {
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 100px;
+  right: 10px; }
+
+.whatsapp:hover {
+  box-shadow: 0px 0px 30px green;
+  transition: 500ms;
+  right: 20px; }
+
+.footer {
+  grid-area: footer;
+  margin-top: 20px;
+  letter-spacing: 0, 5px;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: red; }
+
+/* Tienda */
+/* Variables */
+/* Tienda */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense; }
+
+.envio-gratis-padre {
+  display: flex;
+  justify-content: center; }
+
+.envio-gratis {
+  text-align: center;
+  width: 80vw; }
+
+.productostienda {
+  border: solid 5px black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  transition: ease-in-out; }
+
+.venta {
+  text-align: start;
+  border: double red 5px;
+  border-top: solid 5px red;
+  border-bottom: solid 5px red; }
+
+.imagen {
+  font-size: smaller;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  letter-spacing: 1px;
+  background: white;
+  margin: 20px 50px;
+  padding: 30px;
+  display: inline-block; }
+
+.mediosdepago {
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.texto {
+  font-size: smaller;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(252, 63, 63, 0.966);
+  text-align: center; }
+
+.tarjetas {
+  text-align: center; }
+
+.productostienda img {
+  height: 225px;
+  text-align: center; }
+
+.comprar {
+  color: red;
+  display: inline-block;
+  text-align: center;
+  border: solid 2px black; }
+
+.comprar:hover {
+  box-shadow: 0px 0px 30px red;
+  transition: 500ms; }
+
+.presentacioncamiseta {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.productostienda h4 {
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  letter-spacing: 1px; }
+
+/* Grid Tienda */
+.grid-container-camisetas {
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-template-areas: "imagen_1 imagen_2 imagen_3" "imagen_4 imagen_5 imagen_6"; }
+
+#Imagen_1 {
+  border: solid 2px black;
+  grid-area: imagen_1; }
+
+#Imagen_2 {
+  border: solid 2px black;
+  grid-area: imagen_2; }
+
+#Imagen_3 {
+  border: solid 2px black;
+  grid-area: imagen_3; }
+
+#Imagen_4 {
+  border: solid 2px black;
+  grid-area: imagen_4; }
+
+#Imagen_5 {
+  border: solid 2px black;
+  grid-area: imagen_5; }
+
+#Imagen_6 {
+  border: solid 2px black;
+  grid-area: imagen_6; }
+
+.cabecera {
+  grid-area: header; }

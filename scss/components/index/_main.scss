@@ -1,0 +1,108 @@
+/* VARIABLES */
+$bg-color:red;
+$text-color:black;
+$font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$color:red;
+
+
+.carrusel-padre{
+    display: flex;
+    justify-content: center;
+}
+.carrusel{
+    width: 80%;
+}
+.galeria-img img{
+    margin: 50px 20px 50px 20px;
+    }
+
+.galeria{
+    margin-top: 20px;
+    background-image: url(https://images.beinsports.com/FZkW1iSCtDYLDXqEXe-EoBsNLac=/full-fit-in/1000x0/3132330-river-reuters.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    }
+
+h1{
+    grid-area: h1;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: $font-family;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+.h1color{
+    margin-top: 20px;
+    color: $text-color;
+    letter-spacing: 1px;
+    text-align: center;
+    }
+
+.h2{
+    font-family: $font-family;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $text-color;
+    }
+
+.tienda{
+    background-color: rgba(253, 246, 250, 0.75);
+    padding: 1rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: x-large;
+    color: $color;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.tienda:hover{
+    box-shadow: 0px 0px 10px red;
+    transition: 500ms;
+    color: $color;
+    }
+
+.descuento{
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(252, 63, 63, 0.966);
+    display: flex;
+    justify-content: center;
+    }
+
+.imgriver{
+    height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+.tarjeta__bbvaconteiner{
+        display: flex;
+        justify-content: center;
+    }
+    
+.tarjeta__bbva{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }

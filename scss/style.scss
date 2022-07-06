@@ -1,0 +1,14 @@
+/* Página index */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Index */
+@import "../scss/components/index/header";
+@import "../scss/components/index/main";
+@import "../scss/components/index/footer";
+
+/* Tienda */
+@import "../scss/components/tienda/main";
+
+

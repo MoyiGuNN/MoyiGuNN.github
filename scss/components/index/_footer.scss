@@ -1,0 +1,76 @@
+/* VARIABLES */
+$bg-color: red;
+$font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$letter-spacing: 0,5px;
+$color: red;
+
+
+.email{
+    letter-spacing: $letter-spacing;
+    margin-top: 10px;
+    font-family: $font-family;
+    font-size: large;
+    color: white;
+    background-color: $bg-color;
+}
+
+.volver{
+    letter-spacing: $letter-spacing;
+    margin: 10px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    text-decoration: none;
+    font-family: $font-family;
+    background-color:white;
+    color: $color;
+}
+
+.volver:hover{
+    box-shadow: 0px 0px 50px $color;
+    transition: 500ms;
+    color: $color;
+}
+
+.Telegram{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.Telegram:hover{
+    box-shadow: 0px 0px 30px #0080ff;
+    transition: 500ms;
+    right: 20px;
+}
+
+.whatsapp{
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+
+.whatsapp:hover{
+    box-shadow: 0px 0px 30px green; 
+    transition: 500ms;
+    right: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    margin-top: 20px;
+    letter-spacing: $letter-spacing;
+    font-size: large;
+    font-family: $font-family;
+    color: white;
+    background-color: $bg-color;
+}
+
+

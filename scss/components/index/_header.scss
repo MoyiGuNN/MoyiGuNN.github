@@ -1,0 +1,61 @@
+/* Cabecera anidación */
+
+.cabecera{
+        background-color: white;
+            h1{
+                text-decoration: underline;
+                nav{
+                    margin: 20px;
+                        ul{
+                            padding: 20px;
+                                li{
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                }
+                        }
+                
+
+        }
+    }
+}
+
+/* VARIABLES */
+$font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+.cabecera { 
+    font-family: $font-family;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    }
+    
+    .logo{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    }
+
+    .bg-renzo {
+        margin: 10px;
+        font-family:$font-family;
+        list-style: none;
+        background-color:red;
+    } 
+
+    .nav-item{
+        transition: 500ms;
+        color: black;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        }
+
+    .nav-item:hover{
+        transition: 500ms;
+        color: black;
+    }
+    
+    .lista{
+        &li:hover{
+        text-decoration: underline;
+        transition: 500ms;
+        }
+    }
