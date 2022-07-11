@@ -1,0 +1,39 @@
+/* VARIABLES */
+$color:red;
+
+ /* Página contactanos */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 5px;
+    color: $color;
+    }
+    
+    .formulariocontacto input{
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+    }
+    .formulariocontacto input:hover{
+        background-color: $color;
+        color: white;
+        border-radius: 50px;
+        box-shadow: $color ;
+        transition: 500ms;
+    }
+    
+    .textarea{
+        margin-top: 20px;
+        }
+    
+    .imagencontactocontainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagencontacto{
+        margin: 10px;
+    }
+    

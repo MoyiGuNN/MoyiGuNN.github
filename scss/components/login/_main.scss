@@ -1,0 +1,56 @@
+/* VARIABLES */
+$color: red;
+
+
+/* Página login */
+
+.login{
+    grid-area: login;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.botoningresar{
+    margin-top: 10px;
+    box-sizing: 50px
+}  
+
+.botoningresar:hover{
+    background-color: $color;
+    color: white;
+    box-shadow: $color; 
+    transition: 500ms;
+    border-radius: 50px;
+} 
+
+.btn-entrar{ 
+    margin-top: 20px;
+    text-align: center;
+    color: $color;
+} 
+.btn-entrar a{
+    text-decoration: none;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+}  
+
+.btn-entrar a:hover{
+    background-color: $color;
+    color: white;
+    border-radius: 50px;
+    box-shadow: $color ;
+    transition: 500ms;
+} 
+
+.imagentamañoconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.imagentamaño{
+    width: 70vw;
+    height: 50vh;
+}  

@@ -1,0 +1,36 @@
+/* VARIABLES */
+$color:red;
+
+
+/* Página redes */
+
+.redsociallogos{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redsocialvideo{
+    display: flex;
+    justify-content: center;
+    }
+
+.imagenredsocial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.botonredsocial{
+    color: $color;
+    border: solid black 1px;
+    text-decoration: none;
+}
+
+.botonredsocial:hover{
+    box-shadow: 5px 5px 10px $color;
+    color: $color;
+    transition: 500ms;
+}
+

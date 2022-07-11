@@ -1,6 +1,7 @@
 /* Variables */
 $border: solid 2px black; 
 $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$color: red;
 
 
 /* Tienda */
@@ -38,15 +39,15 @@ $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .venta{
     text-align: start;
-    border: double red 5px;
-    border-top:solid 5px red;
-    border-bottom:solid 5px red;
+    border: double $color 5px;
+    border-top:solid 5px $color;
+    border-bottom:solid 5px $color;
 }
 
 .imagen{
     font-size: smaller;
     font-family: $font-family;
-    color: red;
+    color: $color;
     letter-spacing: 1px;
     background: white;    
     margin: 20px 50px;
@@ -57,7 +58,7 @@ $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .mediosdepago{
     font-size: large;
     font-family: $font-family;
-    color: red;
+    color: $color;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -80,7 +81,7 @@ $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .comprar{
-    color: red;
+    color: $color;
     display: inline-block;
     text-align: center;
     border: $border;
@@ -88,10 +89,9 @@ $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .comprar:hover{
-    box-shadow: 0px 0px 30px red; 
+    box-shadow: 0px 0px 30px $color; 
     transition: 500ms;
     }
-
 
 .presentacioncamiseta{
     text-align: center;
@@ -102,7 +102,7 @@ $font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .productostienda h4{
     font-size: large;
     font-family: $font-family;
-    color: red;
+    color: $color;
     letter-spacing: 1px;
     
 }
