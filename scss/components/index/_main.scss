@@ -4,7 +4,6 @@ $text-color:black;
 $font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $color:red;
 
-
 .carrusel-padre{
     display: flex;
     justify-content: center;
@@ -12,22 +11,54 @@ $color:red;
 .carrusel{
     width: 80%;
 }
-.galeria-img img{
-    margin: 50px 20px 50px 20px;
-    }
+
+.containercard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
 
 .galeria{
-    margin-top: 20px;
     background-image: url(https://images.beinsports.com/FZkW1iSCtDYLDXqEXe-EoBsNLac=/full-fit-in/1000x0/3132330-river-reuters.jpg);
     background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    height: 80vh;
+    background-color: rgba(253, 246, 250, 0.75);
+    padding: 1rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
     color: red;
-    }
+    height: auto;
+}
+
+.botontienda-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.botontienda{
+    background-color: rgba(253, 246, 250, 0.75);
+    padding: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: x-large;
+    color: red;
+    text-decoration: none;
+}
+
+
+.botontienda:hover{
+    box-shadow: 0px 0px 10px red;
+    transition: 500ms;
+    color: red;
+}
 
 h1{
     grid-area: h1;
@@ -59,27 +90,6 @@ h1{
     color: $text-color;
     }
 
-.tienda{
-    background-color: rgba(253, 246, 250, 0.75);
-    padding: 1rem;
-    border-radius: 10px;
-    letter-spacing: 1px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: x-large;
-    color: $color;
-    height: auto;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    }
-
-.tienda:hover{
-    box-shadow: 0px 0px 10px red;
-    transition: 500ms;
-    color: $color;
-    }
 
 .descuento{
     margin-top: 10px;
@@ -105,4 +115,4 @@ h1{
         margin-top: 20px;
         display: flex;
         justify-content: center;
-    }
+    } 

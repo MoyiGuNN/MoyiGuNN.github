@@ -1,3 +1,13 @@
+/* Media Query´s para index */
+@media screen and (max-width: 576px){
+    .tarjeta__bbva{
+        max-width: 100%;
+    }
+}
+
+
+
+
 /* Media Query´s para tienda*/
 
 @media screen and (max-width: 576px){
@@ -64,9 +74,9 @@
         
     }
     }
-    
-    
+
     /* Media Query´s para Redes */
+
     @media screen and (max-width: 576px) {
         .imagenredsocial{
             display: none;
@@ -85,6 +95,10 @@
         .redsocial{
             width:auto;
             height: auto;
+        }
+
+        .redsocialvideo{
+            max-width: 100%;
         }
     }
     

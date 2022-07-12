@@ -56,19 +56,45 @@
 .carrusel {
   width: 80%; }
 
-.galeria-img img {
-  margin: 50px 20px 50px 20px; }
+.containercard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px; }
 
 .galeria {
-  margin-top: 20px;
   background-image: url(https://images.beinsports.com/FZkW1iSCtDYLDXqEXe-EoBsNLac=/full-fit-in/1000x0/3132330-river-reuters.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+  background-color: rgba(253, 246, 250, 0.75);
+  padding: 1rem;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: red;
+  height: auto; }
+
+.botontienda-container {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  text-align: center; }
+
+.botontienda {
+  background-color: rgba(253, 246, 250, 0.75);
+  padding: 1rem;
+  width: 150px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: red;
+  text-decoration: none; }
+
+.botontienda:hover {
+  box-shadow: 0px 0px 10px red;
+  transition: 500ms;
   color: red; }
 
 h1 {
@@ -97,26 +123,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   color: black; }
-
-.tienda {
-  background-color: rgba(253, 246, 250, 0.75);
-  padding: 1rem;
-  border-radius: 10px;
-  letter-spacing: 1px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: x-large;
-  color: red;
-  height: auto;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.tienda:hover {
-  box-shadow: 0px 0px 10px red;
-  transition: 500ms;
-  color: red; }
 
 .descuento {
   margin-top: 10px;
@@ -428,6 +434,11 @@ h1 {
   margin: 10px; }
 
 /* Media Querys */
+/* Media Query´s para index */
+@media screen and (max-width: 576px) {
+  .tarjeta__bbva {
+    max-width: 100%; } }
+
 /* Media Query´s para tienda*/
 @media screen and (max-width: 576px) {
   .grid-container-camisetas {
@@ -483,4 +494,6 @@ h1 {
     padding: 0 !important; }
   .redsocial {
     width: auto;
-    height: auto; } }
+    height: auto; }
+  .redsocialvideo {
+    max-width: 100%; } }

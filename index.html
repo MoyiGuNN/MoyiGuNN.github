@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link a css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <!-- Conexión al servidor donde están los estilos de css de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
-    <title>Somos River</title>
 
+    <title>Somos River</title>
 </head>
+
 <body>
     <div>
         <header class="cabecera">
@@ -56,10 +56,10 @@
             <img src="Images/carrusel.png" class="d-block w-100" alt="Imagen 1">
         </div>
         <div class="carousel-item">
-            <img src="Images/Carrusel 2.png" class="d-block w-100" alt="...">
+            <img src="Images/Carrusel 2.png" class="d-block w-100" alt="Imagen 2">
         </div>
         <div class="carousel-item">
-            <img src="Images/Carrusel 3.webp" class="d-block w-100" alt="...">
+            <img src="Images/Carrusel 3.webp" class="d-block w-100" alt="Imagen 3">
         </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -75,29 +75,62 @@
         <div>
             <h1 class="h1color">Encontrá los mejores productos</h1>
         </div>
-    
-    <section  class="galeria"> <!-- Imagenes de mi pagina Inicio -->
-            <div class="galeria-img">
-                <img src="./Images/River titular.webp" alt="River titular">
-                <img src="./Images/Remera arquero.webp" alt="Remera river arquero">
-                <img src="./Images/Campera lluvia.webp" alt="Campera de lluvia">
+
+
+        <div class="galeria">
+        <section class="containercard">
+
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/River titular.webp" class="card-img-top d-flex justify-content-center" alt="Remera titular">
+                <div class="card-body">
+                    <p class="card-text text-center">Camiseta Titular</p>
+                </div>
             </div>
             
-            
-            <div class="galeria-img">
-                <img src="./Images/Malla hombre.webp" alt="Malla hombre">
-                <img src="./Images/Botinero.webp" alt="Botinero">
-                <img src="./Images/Pelota River.webp" alt="Pelota River">
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/Remera arquero.webp" class="card-img-top" alt="Remera arquero">
+                <div class="card-body">
+                    <p class="card-text text-center">Camiseta Arquero</p>
+                </div>
             </div>
-                
-            
-        <div> <!-- Botón hecho para ir a la tienda directo -->
-            <a href="./Pages/tienda.html" class="tienda">Ver Tienda</a>
-            
-        </div>
-        
+
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/Campera lluvia.webp" class="card-img-top" alt="Campera lluvia">
+                <div class="card-body">
+                <p class="card-text text-center">Campera de lluvia</p>
+                </div>
+            </div>
         </section>
+
+        <section class="containercard">
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/Malla hombre.webp" class="card-img-top" alt="Malla hombre">
+                <div class="card-body">
+                <p class="card-text text-center">Malla</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/Botinero.webp" class="card-img-top" alt="Botinero">
+                <div class="card-body">
+                <p class="card-text text-center">Botinero</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 15rem;">
+                <img src="/Images/Pelota River.webp" class="card-img-top" alt="Pelota river">
+                <div class="card-body">
+                <p class="card-text text-center">Pelota River</p>
+                </div>
+            </div>
+        </section>
+            
+            <div class="botontienda-container"> <!-- Botón hecho para ir a la tienda directo -->
+                <a href="./Pages/tienda.html" class="botontienda">Ver Tienda</a>
+            </div>
         
+    </div>
+
     <p class="tarjeta__bbvaconteiner">
         <img class="tarjeta__bbva" src="images/descuento river.png" alt="Descuentos">
     </p>
@@ -148,10 +181,9 @@
     <!-- Conexión al servidor donde están las funciones de JS de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
+    
 
-
+    
+    
 </body>
-
-
-
 </html>
