@@ -6,8 +6,6 @@
 }
 
 
-
-
 /* Media Query´s para tienda*/
 
 @media screen and (max-width: 576px){
@@ -102,3 +100,10 @@
         }
     }
     
+    /* Media Query´s para Contacto */
+
+    @media screen and (max-width: 576px){
+        .imagencontactocontainer{
+            display: none;
+        }
+    }
