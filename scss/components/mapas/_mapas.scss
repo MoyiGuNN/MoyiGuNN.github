@@ -1,0 +1,15 @@
+/* MAPAS */
+
+$botoncompra: (
+    color-botoncompra: rgba(255, 0, 0, 0.699),
+    bg-botoncompra: rgba(255, 6, 6, 0.699),
+    border-botoncompra: solid 4px red,
+    margin:10px
+);
+
+.comprar{
+    background-color: map-get($botoncompra, bg-botoncompra) ;
+    border: map-get($botoncompra , border-botoncompra);
+    margin: map-get($botoncompra, margin);
+
+}

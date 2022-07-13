@@ -1,0 +1,20 @@
+/* EXTENDS */
+
+%botones {
+    border:2px solid black;
+    border-radius: 5px;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+%flexbox {
+    display: flex;
+    justify-content: start;
+}
+
+.volver{
+    @extend %botones;
+    @extend %flexbox;
+    background-color: white;
+}
+

@@ -17,7 +17,8 @@ $color: red;
 .volver{
     letter-spacing: $letter-spacing;
     margin: 10px;
-    border-style: solid;
+    border: 2px solid $color;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     font-size: large;
