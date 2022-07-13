@@ -1,0 +1,31 @@
+
+@mixin redes($posicion, $boton, $b-radius, $disp, $jcontent, $right) {
+    position: $posicion;
+    bottom: $boton;
+    border-radius: $b-radius;
+    display: $disp;
+    justify-content: $jcontent;
+    right: $right
+}
+
+.telegram{
+    @include redes(fixed,10px,50%,flex,flex-end,10px);
+
+    &:hover{
+        box-shadow: 0px 0px 30px #0080ff;
+        transition: 500ms;
+        right: 20px; }
+    
+}
+
+.whatsapp{
+    @include redes(fixed,100px,50%,flex,flex-end,10px);
+
+    &:hover{
+            box-shadow: 0px 0px 30px green;
+            transition: 500ms;
+            right: 20px; }
+    }
+
+
+
