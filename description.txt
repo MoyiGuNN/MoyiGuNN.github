@@ -1,4 +1,5 @@
 En mi archivo Index.html sumé el SEO con las siguientes Meta Tags:
+
     Descripción: mediante esta etiqueta meta name description, agregué la siguiente descripción que explica en pocas palabras el contenido de mi web: "Está es la página de Somos River, la mejor forma de conseguir productos directos de utilería originales".
 
     Palabras claves: mediante esta etiqueta meta name keywords, agregué las palabras claves: "Ropa, pelotas, botinero, descuentos, tarjetas, contacto, logo".
