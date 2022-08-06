@@ -4,7 +4,13 @@
         max-width: 100%;
         
     }
+    #navbarNav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
+
 
 
 /* Media Query´s para tienda*/
