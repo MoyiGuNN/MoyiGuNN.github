@@ -1,7 +1,8 @@
 /* Media Query´s para index */
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px) and (max-width: 576px) {
     .tarjeta__bbva{
         max-width: 100%;
+        
     }
 }
 

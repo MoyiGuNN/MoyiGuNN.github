@@ -2,80 +2,65 @@
 /* Página index */
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /* Index */
 /* Cabecera anidación */
 .cabecera {
-  background-color: white;
-}
-.cabecera h1 {
-  text-decoration: underline;
-}
-.cabecera h1 nav {
-  margin: 20px;
-}
-.cabecera h1 nav ul {
-  padding: 20px;
-}
-.cabecera h1 nav ul li {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+  background-color: white; }
+  .cabecera h1 {
+    text-decoration: underline; }
+    .cabecera h1 nav {
+      margin: 20px; }
+      .cabecera h1 nav ul {
+        padding: 20px; }
+        .cabecera h1 nav ul li {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 /* VARIABLES */
 .cabecera {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
-  margin: 20px 20px 20px 20px;
-}
+  margin: 20px 20px 20px 20px; }
 
 .logo {
   display: flex;
   justify-content: center;
-  margin: 20px;
-}
+  margin: 20px; }
 
 .bg-renzo {
   margin: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   list-style: none;
-  background-color: red;
-}
+  background-color: red; }
 
 .nav-item {
   transition: 500ms;
   color: black;
   text-decoration: underline;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 .nav-item:hover {
   transition: 500ms;
-  color: black;
-}
+  color: black; }
 
 .listali:hover {
   text-decoration: underline;
-  transition: 500ms;
-}
+  transition: 500ms; }
 
 /* VARIABLES */
 .carrusel-padre {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .carrusel {
-  width: 80%;
-}
+  width: 80%; }
 
 .containercard {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .galeria {
   background-image: url(https://images.beinsports.com/FZkW1iSCtDYLDXqEXe-EoBsNLac=/full-fit-in/1000x0/3132330-river-reuters.jpg);
@@ -85,18 +70,16 @@
   padding: 1rem;
   border-radius: 10px;
   letter-spacing: 1px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: x-large;
   color: red;
-  height: auto;
-}
+  height: auto; }
 
 .botontienda-container {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  text-align: center;
-}
+  text-align: center; }
 
 .botontienda {
   background-color: rgba(253, 246, 250, 0.75);
@@ -104,17 +87,15 @@
   width: 150px;
   border-radius: 10px;
   letter-spacing: 1px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: x-large;
   color: red;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .botontienda:hover {
   box-shadow: 0px 0px 10px red;
   transition: 500ms;
-  color: red;
-}
+  color: red; }
 
 h1 {
   grid-area: h1;
@@ -126,15 +107,13 @@ h1 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .h1color {
   margin-top: 20px;
   color: black;
   letter-spacing: 1px;
-  text-align: center;
-}
+  text-align: center; }
 
 .h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -143,44 +122,40 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  color: black;
-}
+  color: black; }
 
 .descuento {
   margin-top: 10px;
   font-size: x-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgba(252, 63, 63, 0.966);
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .imgriver {
   height: 50px;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .tarjeta__bbvaconteiner {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .tarjeta__bbva {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-}
+  max-width: 100%; }
 
 /* VARIABLES */
 .email {
+  max-width: 100%;
   letter-spacing: 0, 5px;
   margin-top: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: large;
   color: white;
-  background-color: red;
-}
+  background-color: red; }
 
 .volver {
   letter-spacing: 0, 5px;
@@ -193,14 +168,12 @@ h1 {
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: white;
-  color: red;
-}
+  color: red; }
 
 .volver:hover {
   box-shadow: 0px 0px 50px red;
   transition: 500ms;
-  color: red;
-}
+  color: red; }
 
 .Telegram {
   display: flex;
@@ -208,14 +181,12 @@ h1 {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .Telegram:hover {
   box-shadow: 0px 0px 30px #0080ff;
   transition: 500ms;
-  right: 20px;
-}
+  right: 20px; }
 
 .whatsapp {
   border-radius: 50%;
@@ -223,24 +194,22 @@ h1 {
   justify-content: flex-end;
   position: fixed;
   bottom: 100px;
-  right: 10px;
-}
+  right: 10px; }
 
 .whatsapp:hover {
   box-shadow: 0px 0px 30px green;
   transition: 500ms;
-  right: 20px;
-}
+  right: 20px; }
 
 .footer {
+  max-width: 100%;
   grid-area: footer;
   margin-top: 20px;
   letter-spacing: 0, 5px;
   font-size: large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  background-color: red;
-}
+  background-color: red; }
 
 /* Tienda */
 /* Variables */
@@ -251,18 +220,18 @@ h1 {
   grid-auto-rows: minmax(200px, auto);
   gap: 20px;
   padding: 20px;
-  grid-auto-flow: dense;
-}
+  grid-auto-flow: dense; }
+
+.ancho {
+  max-width: 100%; }
 
 .envio-gratis-padre {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .envio-gratis {
   text-align: center;
-  width: 80vw;
-}
+  width: 80vw; }
 
 .productostienda {
   border: solid 5px black;
@@ -272,15 +241,13 @@ h1 {
   justify-content: center;
   flex-direction: column;
   border-radius: 4px;
-  transition: ease-in-out;
-}
+  transition: ease-in-out; }
 
 .venta {
   text-align: start;
   border: double red 5px;
   border-top: solid 5px red;
-  border-bottom: solid 5px red;
-}
+  border-bottom: solid 5px red; }
 
 .imagen {
   font-size: smaller;
@@ -290,99 +257,83 @@ h1 {
   background: white;
   margin: 20px 50px;
   padding: 30px;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .mediosdepago {
   font-size: large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: red;
   letter-spacing: 1px;
-  text-align: center;
-}
+  text-align: center; }
 
 .texto {
   font-size: smaller;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgba(252, 63, 63, 0.966);
-  text-align: center;
-}
+  text-align: center; }
 
 .tarjetas {
-  text-align: center;
-}
+  text-align: center; }
 
 .productostienda img {
   height: 225px;
-  text-align: center;
-}
+  text-align: center; }
 
 .comprar {
   color: red;
   display: inline-block;
   text-align: center;
-  border: solid 2px black;
-}
+  border: solid 2px black; }
 
 .comprar:hover {
   box-shadow: 0px 0px 30px red;
-  transition: 500ms;
-}
+  transition: 500ms; }
 
 .presentacioncamiseta {
+  max-width: 100%;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .productostienda h4 {
   font-size: large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: red;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 /* Grid Tienda */
 .grid-container-camisetas {
   display: grid;
   grid-auto-rows: 1fr 1fr;
   grid-auto-columns: 1fr 1fr 1fr;
-  grid-template-areas: "imagen_1 imagen_2 imagen_3" "imagen_4 imagen_5 imagen_6";
-}
+  grid-template-areas: "imagen_1 imagen_2 imagen_3" "imagen_4 imagen_5 imagen_6"; }
 
 #Imagen_1 {
   border: solid 2px black;
-  grid-area: imagen_1;
-}
+  grid-area: imagen_1; }
 
 #Imagen_2 {
   border: solid 2px black;
-  grid-area: imagen_2;
-}
+  grid-area: imagen_2; }
 
 #Imagen_3 {
   border: solid 2px black;
-  grid-area: imagen_3;
-}
+  grid-area: imagen_3; }
 
 #Imagen_4 {
   border: solid 2px black;
-  grid-area: imagen_4;
-}
+  grid-area: imagen_4; }
 
 #Imagen_5 {
   border: solid 2px black;
-  grid-area: imagen_5;
-}
+  grid-area: imagen_5; }
 
 #Imagen_6 {
   border: solid 2px black;
-  grid-area: imagen_6;
-}
+  grid-area: imagen_6; }
 
 .cabecera {
-  grid-area: header;
-}
+  grid-area: header; }
 
 /* Redes */
 /* VARIABLES */
@@ -390,31 +341,26 @@ h1 {
 .redsociallogos {
   margin: 50px;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .redsocialvideo {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .imagenredsocial {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
 .botonredsocial {
   color: red;
   border: solid black 1px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .botonredsocial:hover {
   box-shadow: 5px 5px 10px red;
   color: red;
-  transition: 500ms;
-}
+  transition: 500ms; }
 
 /* Login */
 /* VARIABLES */
@@ -422,54 +368,46 @@ h1 {
 .login {
   grid-area: login;
   font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 1px;
-  text-align: center;
-}
+  text-align: center; }
 
 .botoningresar {
   margin-top: 10px;
-  box-sizing: 50px;
-}
+  box-sizing: 50px; }
 
 .botoningresar:hover {
   background-color: red;
   color: white;
   box-shadow: red;
   transition: 500ms;
-  border-radius: 50px;
-}
+  border-radius: 50px; }
 
 .btn-entrar {
   margin-top: 20px;
   text-align: center;
-  color: red;
-}
+  color: red; }
 
 .btn-entrar a {
   text-decoration: none;
   border: solid 2px black;
   border-radius: 10px;
-  padding: 5px;
-}
+  padding: 5px; }
 
 .btn-entrar a:hover {
   background-color: red;
   color: white;
   border-radius: 50px;
   box-shadow: red;
-  transition: 500ms;
-}
+  transition: 500ms; }
 
 .imagentamañoconteiner {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .imagentamaño {
   width: 70vw;
-  height: 50vh;
-}
+  height: 50vh; }
 
 /* Contactanos */
 /* VARIABLES */
@@ -479,52 +417,44 @@ h1 {
   justify-content: center;
   text-align: center;
   border: solid 5px;
-  color: red;
-}
+  color: red; }
 
 .formulariocontacto input {
   text-align: center;
   margin-top: 20px;
-  display: block;
-}
+  display: block; }
 
 .formulariocontacto input:hover {
   background-color: red;
   color: white;
   border-radius: 50px;
   box-shadow: red;
-  transition: 500ms;
-}
+  transition: 500ms; }
 
 .textarea {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .imagencontactocontainer {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .imagencontacto {
-  margin: 10px;
-}
+  margin: 10px; }
 
 .pcontacto {
   display: flex;
   justify-content: center;
   color: rgba(252, 63, 63, 0.966);
   font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 10px;
-}
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px; }
 
 /* Media Querys */
 /* Media Query´s para index */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 576px) {
   .tarjeta__bbva {
-    max-width: 100%;
-  }
-}
+    max-width: 100%; } }
+
 /* Media Query´s para tienda*/
 @media screen and (max-width: 576px) {
   .grid-container-camisetas {
@@ -533,105 +463,83 @@ h1 {
     justify-items: center;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "imagen_1" "imagen_2" "imagen_3" "imagen_4" "imagen_5" "imagen_6";
-  }
+    grid-template-areas: "imagen_1" "imagen_2" "imagen_3" "imagen_4" "imagen_5" "imagen_6"; }
   #Imagen_1 {
-    grid-area: imagen_1;
-  }
+    grid-area: imagen_1; }
   #Imagen_2 {
-    grid-area: imagen_2;
-  }
+    grid-area: imagen_2; }
   #Imagen_3 {
-    grid-area: imagen_3;
-  }
+    grid-area: imagen_3; }
   #Imagen_4 {
-    grid-area: imagen_4;
-  }
+    grid-area: imagen_4; }
   #Imagen_5 {
-    grid-area: imagen_5;
-  }
+    grid-area: imagen_5; }
   #Imagen_6 {
-    grid-area: imagen_6;
-  }
-}
+    grid-area: imagen_6; } }
+
 /* Media Query´s para Login */
 @media screen and (max-width: 576px) {
   .cabecera nav ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-  }
+    flex-wrap: wrap; }
   .cabecera img {
     max-height: 100%;
-    max-width: 100%;
-  }
+    max-width: 100%; }
   .imagentamañoconteiner {
-    display: none;
-  }
+    display: none; }
   .login {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   .parráfo {
     margin: 1rem;
     padding: 0.5rem;
     text-align: center;
-    margin-top: 50px;
-  }
-}
+    margin-top: 50px; } }
+
 /* Media Query´s para Redes */
 @media screen and (max-width: 576px) {
   .imagenredsocial {
-    display: none;
-  }
+    display: none; }
   .card {
     display: flex;
     justify-content: center;
-    font-size: 10px;
-  }
+    font-size: 10px; }
   .card-body {
-    padding: 0 !important;
-  }
+    padding: 0 !important; }
   .redsocial {
     width: auto;
-    height: auto;
-  }
+    height: auto; }
   .redsocialvideo {
-    max-width: 100%;
-  }
-}
+    max-width: 100%; } }
+
 /* Media Query´s para Contacto */
 @media screen and (max-width: 576px) {
   .imagencontactocontainer {
-    display: none;
-  }
-}
+    display: none; } }
+
 /* Extends */
 /* EXTENDS */
 .volver {
   border: 2px solid black;
   border-radius: 5px;
   margin: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .volver {
   display: flex;
-  justify-content: start;
-}
+  justify-content: start; }
 
 .volver {
-  background-color: white;
-}
+  background-color: white; }
 
 /* Mapas */
 /* MAPAS */
 .comprar {
   background-color: rgba(255, 6, 6, 0.699);
   border: solid 4px red;
-  margin: 10px;
-}
+  margin: 10px; }
 
 /* Mixin */
 .telegram {
@@ -640,13 +548,11 @@ h1 {
   border-radius: 50%;
   display: flex;
   justify-content: flex-end;
-  right: 10px;
-}
-.telegram:hover {
-  box-shadow: 0px 0px 30px #0080ff;
-  transition: 500ms;
-  right: 20px;
-}
+  right: 10px; }
+  .telegram:hover {
+    box-shadow: 0px 0px 30px #0080ff;
+    transition: 500ms;
+    right: 20px; }
 
 .whatsapp {
   position: fixed;
@@ -654,17 +560,8 @@ h1 {
   border-radius: 50%;
   display: flex;
   justify-content: flex-end;
-  right: 10px;
-}
-.whatsapp:hover {
-  box-shadow: 0px 0px 30px green;
-  transition: 500ms;
-  right: 20px;
-}
-
-.disclaimer{
-  display: none;
-}
-
-
-/*# sourceMappingURL=style.css.map */
+  right: 10px; }
+  .whatsapp:hover {
+    box-shadow: 0px 0px 30px green;
+    transition: 500ms;
+    right: 20px; }

@@ -12,6 +12,10 @@ $color: red;
     grid-auto-rows: minmax(200px, auto); gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+}
+
+.ancho{
+    max-width: 100%;
 
 }
 
@@ -93,6 +97,7 @@ $color: red;
     }
 
 .presentacioncamiseta{
+    max-width: 100%;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
